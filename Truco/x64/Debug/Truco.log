@@ -1,0 +1,156 @@
+﻿Build started 05/12/2018 17:33:47.
+Environment at start of build:
+ACTEL_FOR_ALTIUM_OVERRIDE =  
+ALLUSERSPROFILE = C:\ProgramData
+ALTERAOCLSDKROOT = C:\altera\altera_lite\15.1\hld
+ALTERA_FOR_ALTIUM_OVERRIDE =  
+APPDATA = C:\Users\DAELN\AppData\Roaming
+CARBON_MEM_DISABLE = 1
+Classpath = C:\LINGO64_15\Lingo14.jar
+CM2014DIR = C:\Program Files (x86)\Common Files\Autodesk Shared\Materials\
+CommonProgramFiles = C:\Program Files (x86)\Common Files
+CommonProgramFiles(x86) = C:\Program Files (x86)\Common Files
+CommonProgramW6432 = C:\Program Files\Common Files
+COMPUTERNAME = DAELN-PC
+ComSpec = C:\Windows\system32\cmd.exe
+FP_NO_HOST_CHECK = NO
+GTK_BASEPATH = C:\Program Files (x86)\GtkSharp\2.12\
+HOMEDRIVE = C:
+HOMEPATH = \Users\DAELN
+ILBDIR = C:\Program Files (x86)\Common Files\Autodesk Shared\Materials\
+LINGO64_15_HOME = C:\LINGO64_15\
+LOCALAPPDATA = C:\Users\DAELN\AppData\Local
+LOGONSERVER = \\DAELN-PC
+MOZ_PLUGIN_PATH = C:\Program Files (x86)\Foxit Software\Foxit Reader\plugins\
+NUMBER_OF_PROCESSORS = 8
+OS = Windows_NT
+Path = C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\MATLAB\R2015b\runtime\win64;C:\Program Files\MATLAB\R2015b\bin;C:\Program Files\MATLAB\R2015b\polyspace\bin;C:\LINGO64_15\;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\altera\15.1\modelsim_ase\win32aloem;C:\Program Files (x86)\Atmel\Flip 3.4.7\bin;c:\ghdl\bin
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PROCESSOR_ARCHITECTURE = x86
+PROCESSOR_ARCHITEW6432 = AMD64
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 58 Stepping 9, GenuineIntel
+PROCESSOR_LEVEL = 6
+PROCESSOR_REVISION = 3a09
+ProgramData = C:\ProgramData
+ProgramFiles = C:\Program Files (x86)
+ProgramFiles(x86) = C:\Program Files (x86)
+ProgramW6432 = C:\Program Files
+PSModulePath = C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+PUBLIC = C:\Users\Public
+QSYS_ROOTDIR = C:\altera\altera_lite\15.1\quartus\sopc_builder\bin
+QUARTUS_ROOTDIR = C:\altera\altera_lite\15.1\quartus
+SESSIONNAME = Console
+SMARTRFSTUDIO7PATH = C:\Program Files (x86)\Texas Instruments\SmartRF Tools\SmartRF Studio 7
+SOPC_KIT_NIOS2 = C:\altera\altera_lite\15.1\nios2eds
+SystemDrive = C:
+SystemRoot = C:\Windows
+TEMP = C:\Users\DAELN\AppData\Local\Temp
+TMP = C:\Users\DAELN\AppData\Local\Temp
+USERDOMAIN = DAELN-PC
+USERNAME = DAELN
+USERPROFILE = C:\Users\DAELN
+VisualStudioDir = C:\Users\DAELN\Documents\Visual Studio 2010
+VS100COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\Tools\
+VXIPNPPATH = C:\Program Files (x86)\IVI Foundation\VISA\
+windir = C:\Windows
+windows_tracing_flags = 3
+windows_tracing_logfile = C:\BVTBin\Tests\installpackage\csilogfile.log
+
+Project "F:\UTFPR\Projeto Truco\Truco\Truco.vcxproj" on node 2 (build target(s)).
+Building with tools version "10.0".
+Project file contains ToolsVersion="10.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+Target "_CheckForInvalidConfigurationAndPlatform: (TargetId:2)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "F:\UTFPR\Projeto Truco\Truco\Truco.vcxproj" (entry point):
+Task "Error" skipped, due to false condition; ( '$(_InvalidConfigurationError)' == 'true' ) was evaluated as ( '' == 'true' ).
+Task "Warning" skipped, due to false condition; ( '$(_InvalidConfigurationWarning)' == 'true' ) was evaluated as ( '' == 'true' ).
+Using "Message" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "Message" (TaskId:2)
+  Configuration=Debug (TaskId:2)
+Done executing task "Message". (TaskId:2)
+Task "Message" (TaskId:3)
+  Platform=x64 (TaskId:3)
+Done executing task "Message". (TaskId:3)
+Task "Error" skipped, due to false condition; ('$(OutDir)' != '' and !HasTrailingSlash('$(OutDir)')) was evaluated as ('F:\UTFPR\Projeto Truco\x64\Debug\' != '' and !HasTrailingSlash('F:\UTFPR\Projeto Truco\x64\Debug\')).
+Task "Error" skipped, due to false condition; ('$(BaseIntermediateOutputPath)' != '' and !HasTrailingSlash('$(BaseIntermediateOutputPath)')) was evaluated as ('obj\' != '' and !HasTrailingSlash('obj\')).
+Task "Error" skipped, due to false condition; ('$(IntermediateOutputPath)' != '' and !HasTrailingSlash('$(IntermediateOutputPath)')) was evaluated as ('x64\Debug\' != '' and !HasTrailingSlash('x64\Debug\')).
+Done building target "_CheckForInvalidConfigurationAndPlatform" in project "Truco.vcxproj".: (TargetId:2)
+Target "_DetermineManagedStateFromCL: (TargetId:3)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "F:\UTFPR\Projeto Truco\Truco\Truco.vcxproj" (target "Build" depends on it):
+Done building target "_DetermineManagedStateFromCL" in project "Truco.vcxproj".: (TargetId:3)
+Target "_PrepareForBuild: (TargetId:4)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets" from project "F:\UTFPR\Projeto Truco\Truco\Truco.vcxproj" (target "Build" depends on it):
+Done building target "_PrepareForBuild" in project "Truco.vcxproj".: (TargetId:4)
+Target "SetBuildDefaultEnvironmentVariables: (TargetId:5)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.Cpp.targets" from project "F:\UTFPR\Projeto Truco\Truco\Truco.vcxproj" (target "Build" depends on it):
+Using "SetEnv" task from assembly "Microsoft.Build.CppTasks.Common, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "SetEnv" (TaskId:4)
+  PATH= (TaskId:4)
+Done executing task "SetEnv". (TaskId:4)
+Task "SetEnv" skipped, due to false condition; ('$(_IsNativeEnvironment)' == 'true') was evaluated as ('' == 'true').
+Task "SetEnv" (TaskId:5)
+  LIB= (TaskId:5)
+Done executing task "SetEnv". (TaskId:5)
+Task "SetEnv" (TaskId:6)
+  LIBPATH= (TaskId:6)
+Done executing task "SetEnv". (TaskId:6)
+Task "SetEnv" (TaskId:7)
+  INCLUDE= (TaskId:7)
+Done executing task "SetEnv". (TaskId:7)
+Done building target "SetBuildDefaultEnvironmentVariables" in project "Truco.vcxproj".: (TargetId:5)
+Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+Target "BeforeResolveReferences: (TargetId:6)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "F:\UTFPR\Projeto Truco\Truco\Truco.vcxproj" (target "ResolveReferences" depends on it):
+Done building target "BeforeResolveReferences" in project "Truco.vcxproj".: (TargetId:6)
+Target "AssignProjectConfiguration: (TargetId:7)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "F:\UTFPR\Projeto Truco\Truco\Truco.vcxproj" (target "ResolveReferences" depends on it):
+Using "AssignProjectConfiguration" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "AssignProjectConfiguration" (TaskId:8)
+Done executing task "AssignProjectConfiguration". (TaskId:8)
+Done building target "AssignProjectConfiguration" in project "Truco.vcxproj".: (TargetId:7)
+Target "AssignProjectConfiguration" skipped. Previously built successfully.
+Target "_SplitProjectReferencesByFileExistence: (TargetId:8)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "F:\UTFPR\Projeto Truco\Truco\Truco.vcxproj" (target "ResolveProjectReferences" depends on it):
+Task "ResolveNonMSBuildProjectOutput" skipped, due to false condition; ('$(BuildingInsideVisualStudio)'=='true' and '@(ProjectReferenceWithConfiguration)'!='') was evaluated as ('true'=='true' and ''!='').
+Done building target "_SplitProjectReferencesByFileExistence" in project "Truco.vcxproj".: (TargetId:8)
+Target "_RemoveNameMetadataFromProjectReferenceItems" skipped, due to false condition; ('@(ProjectReference)'!='') was evaluated as (''!='').
+Target "ResolveProjectReferences: (TargetId:9)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "F:\UTFPR\Projeto Truco\Truco\Truco.vcxproj" (target "ResolveReferences" depends on it):
+Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' != '10.0' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and ('true' == 'true' or 'true' != 'true') and '10.0' != '10.0' and '' != '').
+Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' == '10.0' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and ('true' == 'true' or 'true' != 'true') and '10.0' == '10.0' and '' != '').
+Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingInsideVisualStudio)' != 'true' and '$(BuildProjectReferences)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and 'true' != 'true' and 'true' == 'true' and '' != '').
+Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingProject)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and 'true' == 'true' and '' != '').
+Task "Warning" skipped, due to false condition; ('@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceNonexistent)' != '') was evaluated as ('' != '' and '' != '').
+Done building target "ResolveProjectReferences" in project "Truco.vcxproj".: (TargetId:9)
+Target "ResolveNativeReferences" skipped, due to false condition; ('@(NativeReference)'!='') was evaluated as (''!='').
+Target "GetFrameworkPaths: (TargetId:10)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.NETFramework.targets" from project "F:\UTFPR\Projeto Truco\Truco\Truco.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+Done building target "GetFrameworkPaths" in project "Truco.vcxproj".: (TargetId:10)
+Target "GetWinFXPath" skipped, due to false condition; (('@(Page)' != '' or '@(ApplicationDefinition)' != '' or '@(Resource)' != '') and ('$(GetWinFXNativePath)' != '' or '$(GetWinFXWoWPath)' != '' )) was evaluated as (('' != '' or '' != '' or '' != '') and ('' != '' or '' != '' )).
+Target "GetReferenceAssemblyPaths: (TargetId:11)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "F:\UTFPR\Projeto Truco\Truco\Truco.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+Task "GetReferenceAssemblyPaths" skipped, due to false condition; ('$(TargetFrameworkMoniker)' != '' and ('$(_TargetFrameworkDirectories)' == '' or '$(_FullFrameworkReferenceAssemblyPaths)' == '')) was evaluated as ('.NETFramework,Version=v4.0' != '' and ('C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == '' or 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == '')).
+Done building target "GetReferenceAssemblyPaths" in project "Truco.vcxproj".: (TargetId:11)
+Target "PlatformPrepareForBuild: (TargetId:12)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Platforms\x64\Microsoft.Cpp.x64.Targets" from project "F:\UTFPR\Projeto Truco\Truco\Truco.vcxproj" (target "PrepareForBuild" depends on it):
+Using "VCMessage" task from assembly "Microsoft.Build.CppTasks.Common, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "VCMessage" (TaskId:9)
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Platforms\x64\Microsoft.Cpp.x64.Targets(514,5): error MSB8008: Specified platform toolset (v141) is not installed or invalid. Please make sure that a supported PlatformToolset value is selected.
+Done executing task "VCMessage" -- FAILED. (TaskId:9)
+Done building target "PlatformPrepareForBuild" in project "Truco.vcxproj" -- FAILED.: (TargetId:12)
+Done Building Project "F:\UTFPR\Projeto Truco\Truco\Truco.vcxproj" (build target(s)) -- FAILED.
+
+Project Performance Summary:
+        5 ms  F:\UTFPR\Projeto Truco\Truco\Truco.vcxproj   1 calls
+                  5 ms  build                                      1 calls
+
+Target Performance Summary:
+        0 ms  PlatformPrepareForBuild                    1 calls
+        0 ms  _DetermineManagedStateFromCL               1 calls
+        0 ms  GetReferenceAssemblyPaths                  1 calls
+        0 ms  BeforeResolveReferences                    1 calls
+        0 ms  _SplitProjectReferencesByFileExistence     1 calls
+        0 ms  ResolveProjectReferences                   1 calls
+        0 ms  SetBuildDefaultEnvironmentVariables        1 calls
+        1 ms  GetFrameworkPaths                          1 calls
+        1 ms  _PrepareForBuild                           1 calls
+        1 ms  AssignProjectConfiguration                 1 calls
+        2 ms  _CheckForInvalidConfigurationAndPlatform   1 calls
+
+Task Performance Summary:
+        0 ms  SetEnv                                     4 calls
+        0 ms  Message                                    2 calls
+        0 ms  VCMessage                                  1 calls
+        1 ms  AssignProjectConfiguration                 1 calls
+
+Build FAILED.
+
+Time Elapsed 00:00:00.00
